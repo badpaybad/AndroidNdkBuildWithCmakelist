@@ -10,8 +10,12 @@ set (ANDROID_ABI "arm64-v8a")
 set (CMAKE_ANDROID_ARCH_ABI "arm64-v8a")  # Set the architecture
 set (ANDROID_PLATFORM "android-26")
 set (ANDROID_TOOLCHAIN "clang")
+
 set (ANDROID_STL "c++_shared")
 set (CMAKE_ANDROID_STL_TYPE "c++_shared")
+#/home/dunp/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so
+
+
 set (ANDROID_CPP_FEATURES "rtti exceptions")
 set (CMAKE_EXPORT_COMPILE_COMMANDS "ON")
 # Set the C++ standard
