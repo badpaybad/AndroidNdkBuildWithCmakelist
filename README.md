@@ -1,5 +1,9 @@
 # AndroidNdkBuildWithCmakelist
 
+CMakeList.txt ref
+
+                https://developer.android.com/ndk/guides/other_build_systems 
+
 You have to install android sutdio or download NDK toolkits eg: https://dl.google.com/android/repository/android-ndk-r26d-linux.zip
 All cmake tool chain will use and under ndk android 
 
