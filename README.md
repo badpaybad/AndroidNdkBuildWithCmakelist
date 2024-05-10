@@ -18,16 +18,14 @@ libc++_shared.so
 
                 /home/dunp/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so
 
+copy .so to you android proj by dir struct bellow (jniLibs dir)
+
                 ./android/app/src/main/jniLibs/
                 ............................../arm64-v8a/libandroidtestsharedobject.so
                 ............................../arm64-v8a/libc++_shared.so
                 ............................../armeabi-v7/....
                 ............................../x86_x64/....
                 ............................../x86/....
-
-                set (ANDROID_STL "c++_shared")
-                set (CMAKE_ANDROID_STL_TYPE "c++_shared")
-                #/home/dunp/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so
 
 
 # code c/c++ sample
