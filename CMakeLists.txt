@@ -3,8 +3,8 @@ set(PROJECT_NAME "androidtestsharedobject")
 # project(${PROJECT_NAME} LANGUAGES CXX)
 
 set (CMAKE_SYSTEM_NAME "Android")
-set (ANDROID_NDK "/home/dunp/Android/Sdk/ndk/23.1.7779620")
-set (CMAKE_ANDROID_NDK "/home/dunp/Android/Sdk/ndk/23.1.7779620") 
+set (ANDROID_NDK "/home/dunp/Android/Sdk/ndk/26.2.11394342")
+set (CMAKE_ANDROID_NDK "/home/dunp/Android/Sdk/ndk/26.2.11394342") 
 set (CMAKE_TOOLCHAIN_FILE "/home/dunp/Android/Sdk/ndk/26.2.11394342/build/cmake/android.toolchain.cmake")
 set (ANDROID_ABI "arm64-v8a")
 set (CMAKE_ANDROID_ARCH_ABI "arm64-v8a")  # Set the architecture
